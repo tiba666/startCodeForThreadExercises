@@ -1,4 +1,4 @@
-package day2.deadlock;
+    package day2.deadlock;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,8 +11,8 @@ public class ResourceContainer {
 
   private final Lock lock1 = new ReentrantLock();
   private final Lock lock2 = new ReentrantLock();
-  List<String> words = new ArrayList();
-  List<Integer> numbers = new ArrayList();
+  private List<String> words = new ArrayList();
+  private List<Integer> numbers = new ArrayList();
   
   
   public List<String> getResourceWords() {

@@ -107,7 +107,7 @@ public class BallDemo extends javax.swing.JFrame {
   private void btnStartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnStartActionPerformed
     Random r = new Random();
     Ball ball = new Ball(canvas, new Color(r.nextInt(256),r.nextInt(256),r.nextInt(256),r.nextInt(256)));
-    ball.run();
+    ball.start();
     balls.add(ball);
   }//GEN-LAST:event_btnStartActionPerformed
 
